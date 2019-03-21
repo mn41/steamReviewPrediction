@@ -101,7 +101,7 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
         for ii in range(0, len(x), batch_size):
             yield x[ii:ii+batch_size], y[ii:ii+batch_size]
 
-    epochs = 1
+    epochs = 10
 
     with graph.as_default():
         saver = tf.train.Saver()
