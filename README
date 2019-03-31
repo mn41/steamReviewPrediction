@@ -1,0 +1,15 @@
+To install:
+
+    1. Create virtualenv
+    2. source env/bin/active
+    3. pip install -r requirements.txt
+
+To run:
+
+    python server.py
+
+To invoke:
+
+    curl -X POST http://localhost:5000/recommend \
+            -H 'Content-Type: application/json' \
+            -d '{"review":"I like video games","game":"dota2"}'
