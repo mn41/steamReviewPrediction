@@ -1,7 +1,10 @@
-from RNNSteam import make_rnn
+from RNNSteam1 import make_rnn
 
-batmanarkhamnight_accuracy = make_rnn('batmanarkhamnightreviews.txt', 'batmanarkhamnightscores.txt', .8, 'batmanfull')
-batmanarkhamnight_split_accuracy = make_rnn('batmanarkhamnightsplitreviews.txt', 'batmanarkhamnightsplitscores.txt', .8, 'batmansplit')
+batmanarkhamnight_accuracy = make_rnn('dota2splitreviews.txt', 'dota2splitscores.txt', .8, 'dota2split')
+print("Batman accuracy:")
+print(batmanarkhamnight_accuracy)
+
+'''batmanarkhamnight_split_accuracy = make_rnn('batmanarkhamnightsplitreviews.txt', 'batmanarkhamnightsplitscores.txt', .8, 'batmansplit')
 
 print("Batman accuracy:")
 print(batmanarkhamnight_accuracy)
