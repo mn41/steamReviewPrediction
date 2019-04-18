@@ -47,7 +47,7 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
     score_validation_set, score_test_set = score_validation_set[:review_testing_split_index], score_validation_set[review_testing_split_index:]
 
     lstm_size = 256
-    lstm_layers = 1
+    lstm_layers = 2
     batch_size = 512
     learning_rate = 0.001
 
@@ -62,7 +62,6 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
         keep_prob = tf.placeholder(tf.float32, name='keep_prob')
 
     embedded_layer_size = 300 
-
     with graph.as_default():
         embedding = tf.Variable(tf.random_uniform((number_of_words, embedded_layer_size), -1, 1))
         embed = tf.nn.embedding_lookup(embedding, inputs_)
@@ -75,7 +74,8 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
         drop = tf.contrib.rnn.DropoutWrapper(lstm, output_keep_prob=keep_prob)
         
         # Stack up multiple LSTM layers, for deep learning
-        cell = tf.contrib.rnn.MultiRNNCell([drop] * lstm_layers)
+        #cell = tf.contrib.rnn.MultiRNNCell([drop] * lstm_layers)
+        cell = tf.contrib.rnn.MultiRNNCell([tf.contrib.rnn.DropoutWrapper(tf.nn.rnn_cell.BasicLSTMCell(lstm_size, state_is_tuple=True)) for _ in range(lstm_layers)])
         
         # Getting an initial state of all zeros
         initial_state = cell.zero_state(batch_size, tf.float32)
@@ -141,6 +141,7 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
     with tf.Session(graph=graph) as sess:
         saver.restore(sess, tf.train.latest_checkpoint('checkpoints'))
         test_state = sess.run(cell.zero_state(batch_size, tf.float32))
+        print('here')
         for ii, (x, y) in enumerate(get_batches(review_test_set, score_test_set, batch_size), 1):
             feed = {inputs_: x,
                     scores_: y[:, None],
@@ -152,3 +153,4 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
 
     return np.mean(test_acc)
 
+batmanarkhamnight_accuracy = make_rnn('batmanarkhamnightreviews.txt', 'batmanarkhamnightscores.txt', .8, 'batmanfull')

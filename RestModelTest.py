@@ -77,7 +77,11 @@ def make_rnn(reviews_txt_file, scores_txt_file, input_review, input_score, game)
     with tf.Session(graph=graph) as sess:
 
         input_review_int_array = np.zeros((1, 200), dtype=int)
-        int_array = [vocab_to_int[word] for word in input_review.split()]
+        # int_array = [vocab_to_int[word] for word in input_review.split()]
+        int_array = []
+        for word in input_review.split():
+            if word in vocab_to_int:
+                int_array.append(vocab_to_int[word])
         print(int_array)
         input_review_int_array[0, -len(int_array):] = np.array(int_array)[:200]
         input_score_int_array =  np.array([input_score])
@@ -87,7 +91,6 @@ def make_rnn(reviews_txt_file, scores_txt_file, input_review, input_score, game)
         print('1')
         test_state = sess.run(cell.zero_state(batch_size, tf.float32))
         for ii, (x, y) in enumerate(get_batches(input_review_int_array, input_score_int_array, batch_size), 1):
-            print('3')
             feed = {inputs_: x,
                     scores_: y[:, None],
                     keep_prob: 1,
@@ -101,5 +104,6 @@ def make_rnn(reviews_txt_file, scores_txt_file, input_review, input_score, game)
         else:
             return False
 
-batmanarkhamnight_accuracy = make_rnn('dota2splitreviews.txt', 'dota2splitscores.txt', .8, 'dota2split', 'dota2')
+# batmanarkhamnight_accuracy = make_rnn('dota2splitreviews.txt', 'dota2splitscores.txt', .8, 'dota2split')
 
+print(make_rnn('dota2splitreviews.txt', 'dota2splitscores.txt', "i love this dfsgisdmgf year game", .8, 'dota2split'))

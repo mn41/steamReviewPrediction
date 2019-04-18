@@ -1,6 +1,6 @@
-from RNNSteam1 import make_rnn
+from RestModel import make_rnn
 
-batmanarkhamnight_accuracy = make_rnn('dota2splitreviews.txt', 'dota2splitscores.txt', .8, 'dota2split')
+batmanarkhamnight_accuracy = make_rnn('dota2splitreviews.txt', 'dota2splitscores.txt', "good good good", 1, 'dota2split')
 print("Batman accuracy:")
 print(batmanarkhamnight_accuracy)
 
