@@ -10,7 +10,7 @@ from flask import Flask
 from flask_cors import CORS
 from flask_restful import Resource, Api, reqparse, abort
 
-from RestModelTest import make_rnn
+from Recommendation import get_recommendation
 
 app = Flask(__name__)
 CORS(app)
@@ -25,7 +25,7 @@ parser.add_argument('game')
 # Map each game here
 #
 game_map = (
-    'batman',
+    'batmanarkhamknight',
     'batmanarkhamknightsplit',
     'dota2',
     'dota2split',
@@ -35,6 +35,8 @@ game_map = (
     'nomansskysplit',
     'payday2',
     'payday2split',
+    'totalfull',
+    'totalsplit'
 )
 
 
@@ -50,7 +52,7 @@ class RecommendResource(Resource):
             reviews_txt_file = '{0}reviews.txt'.format(game)
             scores_txt_file = '{0}scores.txt'.format(game)
 
-            isRecommended = make_rnn(reviews_txt_file, scores_txt_file, review, score, game)
+            isRecommended = get_recommendation(reviews_txt_file, scores_txt_file, review, score, game)
             return {
                 'review': review,
                 'game': game,

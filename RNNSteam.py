@@ -47,7 +47,7 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
     score_validation_set, score_test_set = score_validation_set[:review_testing_split_index], score_validation_set[review_testing_split_index:]
 
     lstm_size = 256
-    lstm_layers = 2
+    lstm_layers = 3
     batch_size = 512
     learning_rate = 0.001
 
@@ -152,5 +152,3 @@ def make_rnn(reviews_txt_file, scores_txt_file, training_percent, saved_name):
         print("Test accuracy: {:.3f}".format(np.mean(test_acc)))
 
     return np.mean(test_acc)
-
-batmanarkhamnight_accuracy = make_rnn('batmanarkhamnightreviews.txt', 'batmanarkhamnightscores.txt', .8, 'batmanfull')

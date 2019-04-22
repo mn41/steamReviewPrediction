@@ -1,0 +1,1416 @@
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Epoch: 0/10 Iteration: 5 Train loss: 0.223
+Epoch: 0/10 Iteration: 10 Train loss: 0.227
+Epoch: 0/10 Iteration: 15 Train loss: 0.178
+Epoch: 0/10 Iteration: 20 Train loss: 0.189
+Epoch: 0/10 Iteration: 25 Train loss: 0.184
+Val acc: 0.760
+Epoch: 1/10 Iteration: 30 Train loss: 0.134
+Epoch: 1/10 Iteration: 35 Train loss: 0.121
+Epoch: 1/10 Iteration: 40 Train loss: 0.133
+Epoch: 1/10 Iteration: 45 Train loss: 0.140
+Epoch: 1/10 Iteration: 50 Train loss: 0.152
+Val acc: 0.819
+Epoch: 2/10 Iteration: 55 Train loss: 0.116
+Epoch: 2/10 Iteration: 60 Train loss: 0.119
+Epoch: 2/10 Iteration: 65 Train loss: 0.106
+Epoch: 2/10 Iteration: 70 Train loss: 0.116
+Epoch: 2/10 Iteration: 75 Train loss: 0.102
+Val acc: 0.836
+Epoch: 3/10 Iteration: 80 Train loss: 0.083
+Epoch: 3/10 Iteration: 85 Train loss: 0.087
+Epoch: 3/10 Iteration: 90 Train loss: 0.076
+Epoch: 3/10 Iteration: 95 Train loss: 0.085
+Epoch: 3/10 Iteration: 100 Train loss: 0.082
+Val acc: 0.836
+Epoch: 4/10 Iteration: 105 Train loss: 0.070
+Epoch: 4/10 Iteration: 110 Train loss: 0.056
+Epoch: 4/10 Iteration: 115 Train loss: 0.068
+Epoch: 4/10 Iteration: 120 Train loss: 0.068
+Epoch: 4/10 Iteration: 125 Train loss: 0.078
+Val acc: 0.831
+Epoch: 4/10 Iteration: 130 Train loss: 0.085
+Epoch: 5/10 Iteration: 135 Train loss: 0.078
+Epoch: 5/10 Iteration: 140 Train loss: 0.090
+Epoch: 5/10 Iteration: 145 Train loss: 0.064
+Epoch: 5/10 Iteration: 150 Train loss: 0.070
+Val acc: 0.833
+Epoch: 5/10 Iteration: 155 Train loss: 0.074
+Epoch: 6/10 Iteration: 160 Train loss: 0.051
+Epoch: 6/10 Iteration: 165 Train loss: 0.036
+Epoch: 6/10 Iteration: 170 Train loss: 0.051
+Epoch: 6/10 Iteration: 175 Train loss: 0.059
+Val acc: 0.837
+Epoch: 6/10 Iteration: 180 Train loss: 0.053
+Epoch: 7/10 Iteration: 185 Train loss: 0.073
+Epoch: 7/10 Iteration: 190 Train loss: 0.072
+Epoch: 7/10 Iteration: 195 Train loss: 0.054
+Epoch: 7/10 Iteration: 200 Train loss: 0.046
+Val acc: 0.848
+Epoch: 7/10 Iteration: 205 Train loss: 0.057
+Epoch: 8/10 Iteration: 210 Train loss: 0.041
+Epoch: 8/10 Iteration: 215 Train loss: 0.027
+Epoch: 8/10 Iteration: 220 Train loss: 0.028
+Epoch: 8/10 Iteration: 225 Train loss: 0.029
+Val acc: 0.855
+Epoch: 8/10 Iteration: 230 Train loss: 0.031
+Epoch: 9/10 Iteration: 235 Train loss: 0.030
+Epoch: 9/10 Iteration: 240 Train loss: 0.025
+Epoch: 9/10 Iteration: 245 Train loss: 0.022
+Epoch: 9/10 Iteration: 250 Train loss: 0.029
+Val acc: 0.850
+Epoch: 9/10 Iteration: 255 Train loss: 0.031
+Epoch: 9/10 Iteration: 260 Train loss: 0.023
+Test accuracy: 0.853
+Epoch: 0/10 Iteration: 5 Train loss: 0.240
+Epoch: 0/10 Iteration: 10 Train loss: 0.208
+Epoch: 0/10 Iteration: 15 Train loss: 0.186
+Epoch: 0/10 Iteration: 20 Train loss: 0.172
+Epoch: 1/10 Iteration: 25 Train loss: 0.142
+Val acc: 0.741
+Epoch: 1/10 Iteration: 30 Train loss: 0.156
+Epoch: 1/10 Iteration: 35 Train loss: 0.136
+Epoch: 1/10 Iteration: 40 Train loss: 0.134
+Epoch: 2/10 Iteration: 45 Train loss: 0.126
+Epoch: 2/10 Iteration: 50 Train loss: 0.123
+Val acc: 0.777
+Epoch: 2/10 Iteration: 55 Train loss: 0.108
+Epoch: 2/10 Iteration: 60 Train loss: 0.103
+Epoch: 2/10 Iteration: 65 Train loss: 0.114
+Epoch: 3/10 Iteration: 70 Train loss: 0.101
+Epoch: 3/10 Iteration: 75 Train loss: 0.084
+Val acc: 0.807
+Epoch: 3/10 Iteration: 80 Train loss: 0.086
+Epoch: 3/10 Iteration: 85 Train loss: 0.087
+Epoch: 4/10 Iteration: 90 Train loss: 0.082
+Epoch: 4/10 Iteration: 95 Train loss: 0.061
+Epoch: 4/10 Iteration: 100 Train loss: 0.066
+Val acc: 0.834
+Epoch: 4/10 Iteration: 105 Train loss: 0.071
+Epoch: 4/10 Iteration: 110 Train loss: 0.078
+Epoch: 5/10 Iteration: 115 Train loss: 0.064
+Epoch: 5/10 Iteration: 120 Train loss: 0.051
+Epoch: 5/10 Iteration: 125 Train loss: 0.061
+Val acc: 0.832
+Epoch: 5/10 Iteration: 130 Train loss: 0.086
+Epoch: 6/10 Iteration: 135 Train loss: 0.065
+Epoch: 6/10 Iteration: 140 Train loss: 0.047
+Epoch: 6/10 Iteration: 145 Train loss: 0.052
+Epoch: 6/10 Iteration: 150 Train loss: 0.068
+Val acc: 0.851
+Epoch: 7/10 Iteration: 155 Train loss: 0.061
+Epoch: 7/10 Iteration: 160 Train loss: 0.071
+Epoch: 7/10 Iteration: 165 Train loss: 0.046
+Epoch: 7/10 Iteration: 170 Train loss: 0.038
+Epoch: 7/10 Iteration: 175 Train loss: 0.041
+Val acc: 0.828
+Epoch: 8/10 Iteration: 180 Train loss: 0.042
+Epoch: 8/10 Iteration: 185 Train loss: 0.026
+Epoch: 8/10 Iteration: 190 Train loss: 0.044
+Epoch: 8/10 Iteration: 195 Train loss: 0.035
+Epoch: 9/10 Iteration: 200 Train loss: 0.025
+Val acc: 0.828
+Epoch: 9/10 Iteration: 205 Train loss: 0.020
+Epoch: 9/10 Iteration: 210 Train loss: 0.022
+Epoch: 9/10 Iteration: 215 Train loss: 0.042
+Epoch: 9/10 Iteration: 220 Train loss: 0.024
+Test accuracy: 0.874
+Batman accuracy:
+0.85286456
+0.87402344
+Epoch: 0/10 Iteration: 5 Train loss: 0.114
+Epoch: 0/10 Iteration: 10 Train loss: 0.132
+Epoch: 0/10 Iteration: 15 Train loss: 0.131
+Epoch: 0/10 Iteration: 20 Train loss: 0.130
+Epoch: 0/10 Iteration: 25 Train loss: 0.131
+Val acc: 0.853
+Epoch: 0/10 Iteration: 30 Train loss: 0.139
+Epoch: 0/10 Iteration: 35 Train loss: 0.104
+Epoch: 0/10 Iteration: 40 Train loss: 0.104
+Epoch: 0/10 Iteration: 45 Train loss: 0.112
+Epoch: 0/10 Iteration: 50 Train loss: 0.101
+Val acc: 0.861
+Epoch: 0/10 Iteration: 55 Train loss: 0.111
+Epoch: 0/10 Iteration: 60 Train loss: 0.109
+Epoch: 0/10 Iteration: 65 Train loss: 0.096
+Epoch: 0/10 Iteration: 70 Train loss: 0.085
+Epoch: 0/10 Iteration: 75 Train loss: 0.085
+Val acc: 0.866
+Epoch: 0/10 Iteration: 80 Train loss: 0.113
+Epoch: 0/10 Iteration: 85 Train loss: 0.096
+Epoch: 0/10 Iteration: 90 Train loss: 0.087
+Epoch: 0/10 Iteration: 95 Train loss: 0.089
+Epoch: 0/10 Iteration: 100 Train loss: 0.081
+Val acc: 0.873
+Epoch: 0/10 Iteration: 105 Train loss: 0.072
+Epoch: 0/10 Iteration: 110 Train loss: 0.077
+Epoch: 1/10 Iteration: 115 Train loss: 0.094
+Epoch: 1/10 Iteration: 120 Train loss: 0.093
+Epoch: 1/10 Iteration: 125 Train loss: 0.078
+Val acc: 0.876
+Epoch: 1/10 Iteration: 130 Train loss: 0.092
+Epoch: 1/10 Iteration: 135 Train loss: 0.070
+Epoch: 1/10 Iteration: 140 Train loss: 0.075
+Epoch: 1/10 Iteration: 145 Train loss: 0.093
+Epoch: 1/10 Iteration: 150 Train loss: 0.098
+Val acc: 0.886
+Epoch: 1/10 Iteration: 155 Train loss: 0.082
+Epoch: 1/10 Iteration: 160 Train loss: 0.097
+Epoch: 1/10 Iteration: 165 Train loss: 0.073
+Epoch: 1/10 Iteration: 170 Train loss: 0.110
+Epoch: 1/10 Iteration: 175 Train loss: 0.077
+Val acc: 0.885
+Epoch: 1/10 Iteration: 180 Train loss: 0.071
+Epoch: 1/10 Iteration: 185 Train loss: 0.061
+Epoch: 1/10 Iteration: 190 Train loss: 0.075
+Epoch: 1/10 Iteration: 195 Train loss: 0.065
+Epoch: 1/10 Iteration: 200 Train loss: 0.063
+Val acc: 0.890
+Epoch: 1/10 Iteration: 205 Train loss: 0.083
+Epoch: 1/10 Iteration: 210 Train loss: 0.065
+Epoch: 1/10 Iteration: 215 Train loss: 0.079
+Epoch: 1/10 Iteration: 220 Train loss: 0.063
+Epoch: 2/10 Iteration: 225 Train loss: 0.063
+Val acc: 0.888
+Epoch: 2/10 Iteration: 230 Train loss: 0.060
+Epoch: 2/10 Iteration: 235 Train loss: 0.056
+Epoch: 2/10 Iteration: 240 Train loss: 0.065
+Epoch: 2/10 Iteration: 245 Train loss: 0.072
+Epoch: 2/10 Iteration: 250 Train loss: 0.082
+Val acc: 0.889
+Epoch: 2/10 Iteration: 255 Train loss: 0.060
+Epoch: 2/10 Iteration: 260 Train loss: 0.067
+Epoch: 2/10 Iteration: 265 Train loss: 0.059
+Epoch: 2/10 Iteration: 270 Train loss: 0.059
+Epoch: 2/10 Iteration: 275 Train loss: 0.067
+Val acc: 0.897
+Epoch: 2/10 Iteration: 280 Train loss: 0.052
+Epoch: 2/10 Iteration: 285 Train loss: 0.054
+Epoch: 2/10 Iteration: 290 Train loss: 0.053
+Epoch: 2/10 Iteration: 295 Train loss: 0.061
+Epoch: 2/10 Iteration: 300 Train loss: 0.062
+Val acc: 0.902
+Epoch: 2/10 Iteration: 305 Train loss: 0.049
+Epoch: 2/10 Iteration: 310 Train loss: 0.057
+Epoch: 2/10 Iteration: 315 Train loss: 0.048
+Epoch: 2/10 Iteration: 320 Train loss: 0.057
+Epoch: 2/10 Iteration: 325 Train loss: 0.063
+Val acc: 0.899
+Epoch: 2/10 Iteration: 330 Train loss: 0.062
+Epoch: 3/10 Iteration: 335 Train loss: 0.062
+Epoch: 3/10 Iteration: 340 Train loss: 0.047
+Epoch: 3/10 Iteration: 345 Train loss: 0.047
+Epoch: 3/10 Iteration: 350 Train loss: 0.044
+Val acc: 0.906
+Epoch: 3/10 Iteration: 355 Train loss: 0.050
+Epoch: 3/10 Iteration: 360 Train loss: 0.050
+Epoch: 3/10 Iteration: 365 Train loss: 0.044
+Epoch: 3/10 Iteration: 370 Train loss: 0.052
+Epoch: 3/10 Iteration: 375 Train loss: 0.058
+Val acc: 0.905
+Epoch: 3/10 Iteration: 380 Train loss: 0.043
+Epoch: 3/10 Iteration: 385 Train loss: 0.052
+Epoch: 3/10 Iteration: 390 Train loss: 0.040
+Epoch: 3/10 Iteration: 395 Train loss: 0.044
+Epoch: 3/10 Iteration: 400 Train loss: 0.049
+Val acc: 0.904
+Epoch: 3/10 Iteration: 405 Train loss: 0.042
+Epoch: 3/10 Iteration: 410 Train loss: 0.033
+Epoch: 3/10 Iteration: 415 Train loss: 0.049
+Epoch: 3/10 Iteration: 420 Train loss: 0.040
+Epoch: 3/10 Iteration: 425 Train loss: 0.046
+Val acc: 0.899
+Epoch: 3/10 Iteration: 430 Train loss: 0.054
+Epoch: 3/10 Iteration: 435 Train loss: 0.049
+Epoch: 3/10 Iteration: 440 Train loss: 0.051
+Epoch: 4/10 Iteration: 445 Train loss: 0.050
+Epoch: 4/10 Iteration: 450 Train loss: 0.042
+Val acc: 0.907
+Epoch: 4/10 Iteration: 455 Train loss: 0.042
+Epoch: 4/10 Iteration: 460 Train loss: 0.025
+Epoch: 4/10 Iteration: 465 Train loss: 0.030
+Epoch: 4/10 Iteration: 470 Train loss: 0.035
+Epoch: 4/10 Iteration: 475 Train loss: 0.039
+Val acc: 0.905
+Epoch: 4/10 Iteration: 480 Train loss: 0.037
+Epoch: 4/10 Iteration: 485 Train loss: 0.033
+Epoch: 4/10 Iteration: 490 Train loss: 0.043
+Epoch: 4/10 Iteration: 495 Train loss: 0.034
+Epoch: 4/10 Iteration: 500 Train loss: 0.031
+Val acc: 0.910
+Epoch: 4/10 Iteration: 505 Train loss: 0.042
+Epoch: 4/10 Iteration: 510 Train loss: 0.037
+Epoch: 4/10 Iteration: 515 Train loss: 0.036
+Epoch: 4/10 Iteration: 520 Train loss: 0.037
+Epoch: 4/10 Iteration: 525 Train loss: 0.041
+Val acc: 0.907
+Epoch: 4/10 Iteration: 530 Train loss: 0.038
+Epoch: 4/10 Iteration: 535 Train loss: 0.035
+Epoch: 4/10 Iteration: 540 Train loss: 0.040
+Epoch: 4/10 Iteration: 545 Train loss: 0.049
+Epoch: 4/10 Iteration: 550 Train loss: 0.059
+Val acc: 0.905
+Epoch: 4/10 Iteration: 555 Train loss: 0.047
+Epoch: 5/10 Iteration: 560 Train loss: 0.044
+Epoch: 5/10 Iteration: 565 Train loss: 0.040
+Epoch: 5/10 Iteration: 570 Train loss: 0.036
+Epoch: 5/10 Iteration: 575 Train loss: 0.037
+Val acc: 0.913
+Epoch: 5/10 Iteration: 580 Train loss: 0.033
+Epoch: 5/10 Iteration: 585 Train loss: 0.030
+Epoch: 5/10 Iteration: 590 Train loss: 0.024
+Epoch: 5/10 Iteration: 595 Train loss: 0.032
+Epoch: 5/10 Iteration: 600 Train loss: 0.035
+Val acc: 0.913
+Epoch: 5/10 Iteration: 605 Train loss: 0.034
+Epoch: 5/10 Iteration: 610 Train loss: 0.046
+Epoch: 5/10 Iteration: 615 Train loss: 0.025
+Epoch: 5/10 Iteration: 620 Train loss: 0.036
+Epoch: 5/10 Iteration: 625 Train loss: 0.027
+Val acc: 0.913
+Epoch: 5/10 Iteration: 630 Train loss: 0.036
+Epoch: 5/10 Iteration: 635 Train loss: 0.036
+Epoch: 5/10 Iteration: 640 Train loss: 0.030
+Epoch: 5/10 Iteration: 645 Train loss: 0.019
+Epoch: 5/10 Iteration: 650 Train loss: 0.038
+Val acc: 0.904
+Epoch: 5/10 Iteration: 655 Train loss: 0.037
+Epoch: 5/10 Iteration: 660 Train loss: 0.031
+Epoch: 5/10 Iteration: 665 Train loss: 0.033
+Epoch: 6/10 Iteration: 670 Train loss: 0.051
+Epoch: 6/10 Iteration: 675 Train loss: 0.036
+Val acc: 0.909
+Epoch: 6/10 Iteration: 680 Train loss: 0.034
+Epoch: 6/10 Iteration: 685 Train loss: 0.045
+Epoch: 6/10 Iteration: 690 Train loss: 0.029
+Epoch: 6/10 Iteration: 695 Train loss: 0.027
+Epoch: 6/10 Iteration: 700 Train loss: 0.037
+Val acc: 0.912
+Epoch: 6/10 Iteration: 705 Train loss: 0.031
+Epoch: 6/10 Iteration: 710 Train loss: 0.026
+Epoch: 6/10 Iteration: 715 Train loss: 0.036
+Epoch: 6/10 Iteration: 720 Train loss: 0.023
+Epoch: 6/10 Iteration: 725 Train loss: 0.046
+Val acc: 0.915
+Epoch: 6/10 Iteration: 730 Train loss: 0.027
+Epoch: 6/10 Iteration: 735 Train loss: 0.027
+Epoch: 6/10 Iteration: 740 Train loss: 0.028
+Epoch: 6/10 Iteration: 745 Train loss: 0.030
+Epoch: 6/10 Iteration: 750 Train loss: 0.027
+Val acc: 0.918
+Epoch: 6/10 Iteration: 755 Train loss: 0.028
+Epoch: 6/10 Iteration: 760 Train loss: 0.039
+Epoch: 6/10 Iteration: 765 Train loss: 0.020
+Epoch: 6/10 Iteration: 770 Train loss: 0.042
+Epoch: 6/10 Iteration: 775 Train loss: 0.026
+Val acc: 0.914
+Epoch: 7/10 Iteration: 780 Train loss: 0.020
+Epoch: 7/10 Iteration: 785 Train loss: 0.022
+Epoch: 7/10 Iteration: 790 Train loss: 0.017
+Epoch: 7/10 Iteration: 795 Train loss: 0.022
+Epoch: 7/10 Iteration: 800 Train loss: 0.019
+Val acc: 0.915
+Epoch: 7/10 Iteration: 805 Train loss: 0.031
+Epoch: 7/10 Iteration: 810 Train loss: 0.024
+Epoch: 7/10 Iteration: 815 Train loss: 0.031
+Epoch: 7/10 Iteration: 820 Train loss: 0.019
+Epoch: 7/10 Iteration: 825 Train loss: 0.021
+Val acc: 0.914
+Epoch: 7/10 Iteration: 830 Train loss: 0.031
+Epoch: 7/10 Iteration: 835 Train loss: 0.022
+Epoch: 7/10 Iteration: 840 Train loss: 0.020
+Epoch: 7/10 Iteration: 845 Train loss: 0.018
+Epoch: 7/10 Iteration: 850 Train loss: 0.028
+Val acc: 0.918
+Epoch: 7/10 Iteration: 855 Train loss: 0.032
+Epoch: 7/10 Iteration: 860 Train loss: 0.012
+Epoch: 7/10 Iteration: 865 Train loss: 0.023
+Epoch: 7/10 Iteration: 870 Train loss: 0.016
+Epoch: 7/10 Iteration: 875 Train loss: 0.025
+Val acc: 0.909
+Epoch: 7/10 Iteration: 880 Train loss: 0.025
+Epoch: 7/10 Iteration: 885 Train loss: 0.022
+Epoch: 8/10 Iteration: 890 Train loss: 0.021
+Epoch: 8/10 Iteration: 895 Train loss: 0.016
+Epoch: 8/10 Iteration: 900 Train loss: 0.020
+Val acc: 0.915
+Epoch: 8/10 Iteration: 905 Train loss: 0.024
+Epoch: 8/10 Iteration: 910 Train loss: 0.020
+Epoch: 8/10 Iteration: 915 Train loss: 0.019
+Epoch: 8/10 Iteration: 920 Train loss: 0.020
+Epoch: 8/10 Iteration: 925 Train loss: 0.022
+Val acc: 0.911
+Epoch: 8/10 Iteration: 930 Train loss: 0.027
+Epoch: 8/10 Iteration: 935 Train loss: 0.010
+Epoch: 8/10 Iteration: 940 Train loss: 0.019
+Epoch: 8/10 Iteration: 945 Train loss: 0.019
+Epoch: 8/10 Iteration: 950 Train loss: 0.014
+Val acc: 0.914
+Epoch: 8/10 Iteration: 955 Train loss: 0.027
+Epoch: 8/10 Iteration: 960 Train loss: 0.019
+Epoch: 8/10 Iteration: 965 Train loss: 0.020
+Epoch: 8/10 Iteration: 970 Train loss: 0.028
+Epoch: 8/10 Iteration: 975 Train loss: 0.017
+Val acc: 0.917
+Epoch: 8/10 Iteration: 980 Train loss: 0.032
+Epoch: 8/10 Iteration: 985 Train loss: 0.017
+Epoch: 8/10 Iteration: 990 Train loss: 0.023
+Epoch: 8/10 Iteration: 995 Train loss: 0.031
+Epoch: 9/10 Iteration: 1000 Train loss: 0.023
+Val acc: 0.918
+Epoch: 9/10 Iteration: 1005 Train loss: 0.015
+Epoch: 9/10 Iteration: 1010 Train loss: 0.022
+Epoch: 9/10 Iteration: 1015 Train loss: 0.010
+Epoch: 9/10 Iteration: 1020 Train loss: 0.007
+Epoch: 9/10 Iteration: 1025 Train loss: 0.024
+Val acc: 0.911
+Epoch: 9/10 Iteration: 1030 Train loss: 0.015
+Epoch: 9/10 Iteration: 1035 Train loss: 0.021
+Epoch: 9/10 Iteration: 1040 Train loss: 0.019
+Epoch: 9/10 Iteration: 1045 Train loss: 0.014
+Epoch: 9/10 Iteration: 1050 Train loss: 0.016
+Val acc: 0.915
+Epoch: 9/10 Iteration: 1055 Train loss: 0.015
+Epoch: 9/10 Iteration: 1060 Train loss: 0.020
+Epoch: 9/10 Iteration: 1065 Train loss: 0.017
+Epoch: 9/10 Iteration: 1070 Train loss: 0.018
+Epoch: 9/10 Iteration: 1075 Train loss: 0.016
+Val acc: 0.915
+Epoch: 9/10 Iteration: 1080 Train loss: 0.019
+Epoch: 9/10 Iteration: 1085 Train loss: 0.025
+Epoch: 9/10 Iteration: 1090 Train loss: 0.015
+Epoch: 9/10 Iteration: 1095 Train loss: 0.017
+Epoch: 9/10 Iteration: 1100 Train loss: 0.023
+Val acc: 0.909
+Epoch: 9/10 Iteration: 1105 Train loss: 0.018
+Epoch: 9/10 Iteration: 1110 Train loss: 0.025
+Test accuracy: 0.916
+Epoch: 0/10 Iteration: 5 Train loss: 0.233
+Epoch: 0/10 Iteration: 10 Train loss: 0.215
+Epoch: 0/10 Iteration: 15 Train loss: 0.206
+Epoch: 0/10 Iteration: 20 Train loss: 0.180
+Epoch: 0/10 Iteration: 25 Train loss: 0.167
+Val acc: 0.761
+Epoch: 0/10 Iteration: 30 Train loss: 0.159
+Epoch: 1/10 Iteration: 35 Train loss: 0.144
+Epoch: 1/10 Iteration: 40 Train loss: 0.142
+Epoch: 1/10 Iteration: 45 Train loss: 0.128
+Epoch: 1/10 Iteration: 50 Train loss: 0.123
+Val acc: 0.828
+Epoch: 1/10 Iteration: 55 Train loss: 0.103
+Epoch: 1/10 Iteration: 60 Train loss: 0.120
+Epoch: 1/10 Iteration: 65 Train loss: 0.126
+Epoch: 2/10 Iteration: 70 Train loss: 0.115
+Epoch: 2/10 Iteration: 75 Train loss: 0.093
+Val acc: 0.847
+Epoch: 2/10 Iteration: 80 Train loss: 0.104
+Epoch: 2/10 Iteration: 85 Train loss: 0.069
+Epoch: 2/10 Iteration: 90 Train loss: 0.094
+Epoch: 2/10 Iteration: 95 Train loss: 0.079
+Epoch: 3/10 Iteration: 100 Train loss: 0.072
+Val acc: 0.856
+Epoch: 3/10 Iteration: 105 Train loss: 0.081
+Epoch: 3/10 Iteration: 110 Train loss: 0.074
+Epoch: 3/10 Iteration: 115 Train loss: 0.082
+Epoch: 3/10 Iteration: 120 Train loss: 0.069
+Epoch: 3/10 Iteration: 125 Train loss: 0.075
+Val acc: 0.858
+Epoch: 3/10 Iteration: 130 Train loss: 0.063
+Epoch: 4/10 Iteration: 135 Train loss: 0.061
+Epoch: 4/10 Iteration: 140 Train loss: 0.073
+Epoch: 4/10 Iteration: 145 Train loss: 0.053
+Epoch: 4/10 Iteration: 150 Train loss: 0.065
+Val acc: 0.869
+Epoch: 4/10 Iteration: 155 Train loss: 0.054
+Epoch: 4/10 Iteration: 160 Train loss: 0.048
+Epoch: 4/10 Iteration: 165 Train loss: 0.058
+Epoch: 5/10 Iteration: 170 Train loss: 0.052
+Epoch: 5/10 Iteration: 175 Train loss: 0.047
+Val acc: 0.879
+Epoch: 5/10 Iteration: 180 Train loss: 0.047
+Epoch: 5/10 Iteration: 185 Train loss: 0.047
+Epoch: 5/10 Iteration: 190 Train loss: 0.030
+Epoch: 5/10 Iteration: 195 Train loss: 0.041
+Epoch: 6/10 Iteration: 200 Train loss: 0.040
+Val acc: 0.868
+Epoch: 6/10 Iteration: 205 Train loss: 0.035
+Epoch: 6/10 Iteration: 210 Train loss: 0.035
+Epoch: 6/10 Iteration: 215 Train loss: 0.038
+Epoch: 6/10 Iteration: 220 Train loss: 0.023
+Epoch: 6/10 Iteration: 225 Train loss: 0.025
+Val acc: 0.885
+Epoch: 6/10 Iteration: 230 Train loss: 0.028
+Epoch: 7/10 Iteration: 235 Train loss: 0.031
+Epoch: 7/10 Iteration: 240 Train loss: 0.025
+Epoch: 7/10 Iteration: 245 Train loss: 0.037
+Epoch: 7/10 Iteration: 250 Train loss: 0.028
+Val acc: 0.883
+Epoch: 7/10 Iteration: 255 Train loss: 0.019
+Epoch: 7/10 Iteration: 260 Train loss: 0.025
+Epoch: 8/10 Iteration: 265 Train loss: 0.021
+Epoch: 8/10 Iteration: 270 Train loss: 0.040
+Epoch: 8/10 Iteration: 275 Train loss: 0.036
+Val acc: 0.873
+Epoch: 8/10 Iteration: 280 Train loss: 0.037
+Epoch: 8/10 Iteration: 285 Train loss: 0.030
+Epoch: 8/10 Iteration: 290 Train loss: 0.032
+Epoch: 8/10 Iteration: 295 Train loss: 0.015
+Epoch: 9/10 Iteration: 300 Train loss: 0.027
+Val acc: 0.883
+Epoch: 9/10 Iteration: 305 Train loss: 0.030
+Epoch: 9/10 Iteration: 310 Train loss: 0.024
+Epoch: 9/10 Iteration: 315 Train loss: 0.033
+Epoch: 9/10 Iteration: 320 Train loss: 0.016
+Epoch: 9/10 Iteration: 325 Train loss: 0.022
+Val acc: 0.880
+Epoch: 9/10 Iteration: 330 Train loss: 0.019
+Test accuracy: 0.881
+Epoch: 0/10 Iteration: 5 Train loss: 0.180
+Epoch: 0/10 Iteration: 10 Train loss: 0.180
+Epoch: 0/10 Iteration: 15 Train loss: 0.187
+Epoch: 0/10 Iteration: 20 Train loss: 0.169
+Epoch: 0/10 Iteration: 25 Train loss: 0.165
+Val acc: 0.783
+Epoch: 0/10 Iteration: 30 Train loss: 0.129
+Epoch: 0/10 Iteration: 35 Train loss: 0.141
+Epoch: 0/10 Iteration: 40 Train loss: 0.110
+Epoch: 0/10 Iteration: 45 Train loss: 0.141
+Epoch: 0/10 Iteration: 50 Train loss: 0.154
+Val acc: 0.836
+Epoch: 0/10 Iteration: 55 Train loss: 0.114
+Epoch: 0/10 Iteration: 60 Train loss: 0.126
+Epoch: 0/10 Iteration: 65 Train loss: 0.108
+Epoch: 1/10 Iteration: 70 Train loss: 0.106
+Epoch: 1/10 Iteration: 75 Train loss: 0.120
+Val acc: 0.851
+Epoch: 1/10 Iteration: 80 Train loss: 0.116
+Epoch: 1/10 Iteration: 85 Train loss: 0.086
+Epoch: 1/10 Iteration: 90 Train loss: 0.121
+Epoch: 1/10 Iteration: 95 Train loss: 0.093
+Epoch: 1/10 Iteration: 100 Train loss: 0.087
+Val acc: 0.861
+Epoch: 1/10 Iteration: 105 Train loss: 0.075
+Epoch: 1/10 Iteration: 110 Train loss: 0.097
+Epoch: 1/10 Iteration: 115 Train loss: 0.106
+Epoch: 1/10 Iteration: 120 Train loss: 0.096
+Epoch: 1/10 Iteration: 125 Train loss: 0.090
+Val acc: 0.863
+Epoch: 1/10 Iteration: 130 Train loss: 0.081
+Epoch: 2/10 Iteration: 135 Train loss: 0.076
+Epoch: 2/10 Iteration: 140 Train loss: 0.092
+Epoch: 2/10 Iteration: 145 Train loss: 0.080
+Epoch: 2/10 Iteration: 150 Train loss: 0.063
+Val acc: 0.878
+Epoch: 2/10 Iteration: 155 Train loss: 0.071
+Epoch: 2/10 Iteration: 160 Train loss: 0.064
+Epoch: 2/10 Iteration: 165 Train loss: 0.064
+Epoch: 2/10 Iteration: 170 Train loss: 0.051
+Epoch: 2/10 Iteration: 175 Train loss: 0.073
+Val acc: 0.885
+Epoch: 2/10 Iteration: 180 Train loss: 0.078
+Epoch: 2/10 Iteration: 185 Train loss: 0.070
+Epoch: 2/10 Iteration: 190 Train loss: 0.069
+Epoch: 2/10 Iteration: 195 Train loss: 0.065
+Epoch: 3/10 Iteration: 200 Train loss: 0.059
+Val acc: 0.889
+Epoch: 3/10 Iteration: 205 Train loss: 0.071
+Epoch: 3/10 Iteration: 210 Train loss: 0.068
+Epoch: 3/10 Iteration: 215 Train loss: 0.046
+Epoch: 3/10 Iteration: 220 Train loss: 0.060
+Epoch: 3/10 Iteration: 225 Train loss: 0.045
+Val acc: 0.885
+Epoch: 3/10 Iteration: 230 Train loss: 0.055
+Epoch: 3/10 Iteration: 235 Train loss: 0.043
+Epoch: 3/10 Iteration: 240 Train loss: 0.060
+Epoch: 3/10 Iteration: 245 Train loss: 0.071
+Epoch: 3/10 Iteration: 250 Train loss: 0.059
+Val acc: 0.877
+Epoch: 3/10 Iteration: 255 Train loss: 0.059
+Epoch: 3/10 Iteration: 260 Train loss: 0.056
+Epoch: 4/10 Iteration: 265 Train loss: 0.052
+Epoch: 4/10 Iteration: 270 Train loss: 0.053
+Epoch: 4/10 Iteration: 275 Train loss: 0.050
+Val acc: 0.894
+Epoch: 4/10 Iteration: 280 Train loss: 0.032
+Epoch: 4/10 Iteration: 285 Train loss: 0.048
+Epoch: 4/10 Iteration: 290 Train loss: 0.037
+Epoch: 4/10 Iteration: 295 Train loss: 0.044
+Epoch: 4/10 Iteration: 300 Train loss: 0.036
+Val acc: 0.899
+Epoch: 4/10 Iteration: 305 Train loss: 0.049
+Epoch: 4/10 Iteration: 310 Train loss: 0.055
+Epoch: 4/10 Iteration: 315 Train loss: 0.053
+Epoch: 4/10 Iteration: 320 Train loss: 0.037
+Epoch: 4/10 Iteration: 325 Train loss: 0.056
+Val acc: 0.894
+Epoch: 5/10 Iteration: 330 Train loss: 0.041
+Epoch: 5/10 Iteration: 335 Train loss: 0.045
+Epoch: 5/10 Iteration: 340 Train loss: 0.037
+Epoch: 5/10 Iteration: 345 Train loss: 0.033
+Epoch: 5/10 Iteration: 350 Train loss: 0.037
+Val acc: 0.899
+Epoch: 5/10 Iteration: 355 Train loss: 0.030
+Epoch: 5/10 Iteration: 360 Train loss: 0.032
+Epoch: 5/10 Iteration: 365 Train loss: 0.024
+Epoch: 5/10 Iteration: 370 Train loss: 0.038
+Epoch: 5/10 Iteration: 375 Train loss: 0.042
+Val acc: 0.891
+Epoch: 5/10 Iteration: 380 Train loss: 0.040
+Epoch: 5/10 Iteration: 385 Train loss: 0.026
+Epoch: 5/10 Iteration: 390 Train loss: 0.032
+Epoch: 6/10 Iteration: 395 Train loss: 0.030
+Epoch: 6/10 Iteration: 400 Train loss: 0.035
+Val acc: 0.890
+Epoch: 6/10 Iteration: 405 Train loss: 0.037
+Epoch: 6/10 Iteration: 410 Train loss: 0.035
+Epoch: 6/10 Iteration: 415 Train loss: 0.027
+Epoch: 6/10 Iteration: 420 Train loss: 0.028
+Epoch: 6/10 Iteration: 425 Train loss: 0.030
+Val acc: 0.893
+Epoch: 6/10 Iteration: 430 Train loss: 0.022
+Epoch: 6/10 Iteration: 435 Train loss: 0.027
+Epoch: 6/10 Iteration: 440 Train loss: 0.038
+Epoch: 6/10 Iteration: 445 Train loss: 0.032
+Epoch: 6/10 Iteration: 450 Train loss: 0.025
+Val acc: 0.896
+Epoch: 6/10 Iteration: 455 Train loss: 0.038
+Epoch: 7/10 Iteration: 460 Train loss: 0.029
+Epoch: 7/10 Iteration: 465 Train loss: 0.030
+Epoch: 7/10 Iteration: 470 Train loss: 0.026
+Epoch: 7/10 Iteration: 475 Train loss: 0.017
+Val acc: 0.897
+Epoch: 7/10 Iteration: 480 Train loss: 0.026
+Epoch: 7/10 Iteration: 485 Train loss: 0.021
+Epoch: 7/10 Iteration: 490 Train loss: 0.023
+Epoch: 7/10 Iteration: 495 Train loss: 0.018
+Epoch: 7/10 Iteration: 500 Train loss: 0.024
+Val acc: 0.900
+Epoch: 7/10 Iteration: 505 Train loss: 0.030
+Epoch: 7/10 Iteration: 510 Train loss: 0.028
+Epoch: 7/10 Iteration: 515 Train loss: 0.020
+Epoch: 7/10 Iteration: 520 Train loss: 0.026
+Epoch: 8/10 Iteration: 525 Train loss: 0.020
+Val acc: 0.898
+Epoch: 8/10 Iteration: 530 Train loss: 0.025
+Epoch: 8/10 Iteration: 535 Train loss: 0.020
+Epoch: 8/10 Iteration: 540 Train loss: 0.012
+Epoch: 8/10 Iteration: 545 Train loss: 0.019
+Epoch: 8/10 Iteration: 550 Train loss: 0.013
+Val acc: 0.903
+Epoch: 8/10 Iteration: 555 Train loss: 0.026
+Epoch: 8/10 Iteration: 560 Train loss: 0.015
+Epoch: 8/10 Iteration: 565 Train loss: 0.017
+Epoch: 8/10 Iteration: 570 Train loss: 0.022
+Epoch: 8/10 Iteration: 575 Train loss: 0.024
+Val acc: 0.903
+Epoch: 8/10 Iteration: 580 Train loss: 0.014
+Epoch: 8/10 Iteration: 585 Train loss: 0.019
+Epoch: 9/10 Iteration: 590 Train loss: 0.019
+Epoch: 9/10 Iteration: 595 Train loss: 0.024
+Epoch: 9/10 Iteration: 600 Train loss: 0.015
+Val acc: 0.897
+Epoch: 9/10 Iteration: 605 Train loss: 0.012
+Epoch: 9/10 Iteration: 610 Train loss: 0.017
+Epoch: 9/10 Iteration: 615 Train loss: 0.009
+Epoch: 9/10 Iteration: 620 Train loss: 0.017
+Epoch: 9/10 Iteration: 625 Train loss: 0.012
+Val acc: 0.900
+Epoch: 9/10 Iteration: 630 Train loss: 0.019
+Epoch: 9/10 Iteration: 635 Train loss: 0.020
+Epoch: 9/10 Iteration: 640 Train loss: 0.019
+Epoch: 9/10 Iteration: 645 Train loss: 0.007
+Epoch: 9/10 Iteration: 650 Train loss: 0.025
+Val acc: 0.892
+Test accuracy: 0.897
+Epoch: 0/10 Iteration: 5 Train loss: 0.232
+Epoch: 0/10 Iteration: 10 Train loss: 0.229
+Epoch: 0/10 Iteration: 15 Train loss: 0.192
+Epoch: 0/10 Iteration: 20 Train loss: 0.192
+Epoch: 0/10 Iteration: 25 Train loss: 0.156
+Val acc: 0.779
+Epoch: 0/10 Iteration: 30 Train loss: 0.170
+Epoch: 1/10 Iteration: 35 Train loss: 0.150
+Epoch: 1/10 Iteration: 40 Train loss: 0.151
+Epoch: 1/10 Iteration: 45 Train loss: 0.140
+Epoch: 1/10 Iteration: 50 Train loss: 0.128
+Val acc: 0.824
+Epoch: 1/10 Iteration: 55 Train loss: 0.111
+Epoch: 1/10 Iteration: 60 Train loss: 0.124
+Epoch: 1/10 Iteration: 65 Train loss: 0.101
+Epoch: 2/10 Iteration: 70 Train loss: 0.110
+Epoch: 2/10 Iteration: 75 Train loss: 0.112
+Val acc: 0.832
+Epoch: 2/10 Iteration: 80 Train loss: 0.107
+Epoch: 2/10 Iteration: 85 Train loss: 0.097
+Epoch: 2/10 Iteration: 90 Train loss: 0.090
+Epoch: 2/10 Iteration: 95 Train loss: 0.088
+Epoch: 2/10 Iteration: 100 Train loss: 0.065
+Val acc: 0.862
+Epoch: 3/10 Iteration: 105 Train loss: 0.083
+Epoch: 3/10 Iteration: 110 Train loss: 0.088
+Epoch: 3/10 Iteration: 115 Train loss: 0.080
+Epoch: 3/10 Iteration: 120 Train loss: 0.069
+Epoch: 3/10 Iteration: 125 Train loss: 0.078
+Val acc: 0.866
+Epoch: 3/10 Iteration: 130 Train loss: 0.071
+Epoch: 3/10 Iteration: 135 Train loss: 0.097
+Epoch: 4/10 Iteration: 140 Train loss: 0.103
+Epoch: 4/10 Iteration: 145 Train loss: 0.087
+Epoch: 4/10 Iteration: 150 Train loss: 0.088
+Val acc: 0.849
+Epoch: 4/10 Iteration: 155 Train loss: 0.073
+Epoch: 4/10 Iteration: 160 Train loss: 0.071
+Epoch: 4/10 Iteration: 165 Train loss: 0.085
+Epoch: 4/10 Iteration: 170 Train loss: 0.092
+Epoch: 5/10 Iteration: 175 Train loss: 0.062
+Val acc: 0.877
+Epoch: 5/10 Iteration: 180 Train loss: 0.074
+Epoch: 5/10 Iteration: 185 Train loss: 0.050
+Epoch: 5/10 Iteration: 190 Train loss: 0.072
+Epoch: 5/10 Iteration: 195 Train loss: 0.052
+Epoch: 5/10 Iteration: 200 Train loss: 0.048
+Val acc: 0.882
+Epoch: 6/10 Iteration: 205 Train loss: 0.053
+Epoch: 6/10 Iteration: 210 Train loss: 0.047
+Epoch: 6/10 Iteration: 215 Train loss: 0.044
+Epoch: 6/10 Iteration: 220 Train loss: 0.039
+Epoch: 6/10 Iteration: 225 Train loss: 0.037
+Val acc: 0.894
+Epoch: 6/10 Iteration: 230 Train loss: 0.042
+Epoch: 6/10 Iteration: 235 Train loss: 0.051
+Epoch: 7/10 Iteration: 240 Train loss: 0.048
+Epoch: 7/10 Iteration: 245 Train loss: 0.051
+Epoch: 7/10 Iteration: 250 Train loss: 0.037
+Val acc: 0.896
+Epoch: 7/10 Iteration: 255 Train loss: 0.037
+Epoch: 7/10 Iteration: 260 Train loss: 0.032
+Epoch: 7/10 Iteration: 265 Train loss: 0.026
+Epoch: 7/10 Iteration: 270 Train loss: 0.021
+Epoch: 8/10 Iteration: 275 Train loss: 0.031
+Val acc: 0.895
+Epoch: 8/10 Iteration: 280 Train loss: 0.028
+Epoch: 8/10 Iteration: 285 Train loss: 0.022
+Epoch: 8/10 Iteration: 290 Train loss: 0.025
+Epoch: 8/10 Iteration: 295 Train loss: 0.026
+Epoch: 8/10 Iteration: 300 Train loss: 0.018
+Val acc: 0.911
+Epoch: 8/10 Iteration: 305 Train loss: 0.037
+Epoch: 9/10 Iteration: 310 Train loss: 0.021
+Epoch: 9/10 Iteration: 315 Train loss: 0.016
+Epoch: 9/10 Iteration: 320 Train loss: 0.025
+Epoch: 9/10 Iteration: 325 Train loss: 0.014
+Val acc: 0.909
+Epoch: 9/10 Iteration: 330 Train loss: 0.016
+Epoch: 9/10 Iteration: 335 Train loss: 0.030
+Epoch: 9/10 Iteration: 340 Train loss: 0.018
+Test accuracy: 0.879
+Epoch: 0/10 Iteration: 5 Train loss: 0.219
+Epoch: 0/10 Iteration: 10 Train loss: 0.198
+Epoch: 0/10 Iteration: 15 Train loss: 0.180
+Epoch: 0/10 Iteration: 20 Train loss: 0.146
+Epoch: 0/10 Iteration: 25 Train loss: 0.132
+Val acc: 0.807
+Epoch: 0/10 Iteration: 30 Train loss: 0.121
+Epoch: 0/10 Iteration: 35 Train loss: 0.116
+Epoch: 1/10 Iteration: 40 Train loss: 0.107
+Epoch: 1/10 Iteration: 45 Train loss: 0.100
+Epoch: 1/10 Iteration: 50 Train loss: 0.109
+Val acc: 0.863
+Epoch: 1/10 Iteration: 55 Train loss: 0.089
+Epoch: 1/10 Iteration: 60 Train loss: 0.083
+Epoch: 1/10 Iteration: 65 Train loss: 0.092
+Epoch: 1/10 Iteration: 70 Train loss: 0.079
+Epoch: 1/10 Iteration: 75 Train loss: 0.089
+Val acc: 0.879
+Epoch: 2/10 Iteration: 80 Train loss: 0.074
+Epoch: 2/10 Iteration: 85 Train loss: 0.090
+Epoch: 2/10 Iteration: 90 Train loss: 0.068
+Epoch: 2/10 Iteration: 95 Train loss: 0.061
+Epoch: 2/10 Iteration: 100 Train loss: 0.070
+Val acc: 0.892
+Epoch: 2/10 Iteration: 105 Train loss: 0.064
+Epoch: 2/10 Iteration: 110 Train loss: 0.046
+Epoch: 3/10 Iteration: 115 Train loss: 0.069
+Epoch: 3/10 Iteration: 120 Train loss: 0.051
+Epoch: 3/10 Iteration: 125 Train loss: 0.076
+Val acc: 0.881
+Epoch: 3/10 Iteration: 130 Train loss: 0.066
+Epoch: 3/10 Iteration: 135 Train loss: 0.059
+Epoch: 3/10 Iteration: 140 Train loss: 0.086
+Epoch: 3/10 Iteration: 145 Train loss: 0.058
+Epoch: 3/10 Iteration: 150 Train loss: 0.057
+Val acc: 0.884
+Epoch: 4/10 Iteration: 155 Train loss: 0.041
+Epoch: 4/10 Iteration: 160 Train loss: 0.056
+Epoch: 4/10 Iteration: 165 Train loss: 0.054
+Epoch: 4/10 Iteration: 170 Train loss: 0.037
+Epoch: 4/10 Iteration: 175 Train loss: 0.047
+Val acc: 0.898
+Epoch: 4/10 Iteration: 180 Train loss: 0.053
+Epoch: 4/10 Iteration: 185 Train loss: 0.034
+Epoch: 4/10 Iteration: 190 Train loss: 0.047
+Epoch: 5/10 Iteration: 195 Train loss: 0.032
+Epoch: 5/10 Iteration: 200 Train loss: 0.046
+Val acc: 0.885
+Epoch: 5/10 Iteration: 205 Train loss: 0.039
+Epoch: 5/10 Iteration: 210 Train loss: 0.026
+Epoch: 5/10 Iteration: 215 Train loss: 0.026
+Epoch: 5/10 Iteration: 220 Train loss: 0.025
+Epoch: 5/10 Iteration: 225 Train loss: 0.029
+Val acc: 0.903
+Epoch: 6/10 Iteration: 230 Train loss: 0.030
+Epoch: 6/10 Iteration: 235 Train loss: 0.024
+Epoch: 6/10 Iteration: 240 Train loss: 0.028
+Epoch: 6/10 Iteration: 245 Train loss: 0.026
+Epoch: 6/10 Iteration: 250 Train loss: 0.028
+Val acc: 0.901
+Epoch: 6/10 Iteration: 255 Train loss: 0.033
+Epoch: 6/10 Iteration: 260 Train loss: 0.033
+Epoch: 6/10 Iteration: 265 Train loss: 0.035
+Epoch: 7/10 Iteration: 270 Train loss: 0.032
+Epoch: 7/10 Iteration: 275 Train loss: 0.029
+Val acc: 0.900
+Epoch: 7/10 Iteration: 280 Train loss: 0.032
+Epoch: 7/10 Iteration: 285 Train loss: 0.039
+Epoch: 7/10 Iteration: 290 Train loss: 0.044
+Epoch: 7/10 Iteration: 295 Train loss: 0.028
+Epoch: 7/10 Iteration: 300 Train loss: 0.017
+Val acc: 0.889
+Epoch: 8/10 Iteration: 305 Train loss: 0.030
+Epoch: 8/10 Iteration: 310 Train loss: 0.012
+Epoch: 8/10 Iteration: 315 Train loss: 0.013
+Epoch: 8/10 Iteration: 320 Train loss: 0.024
+Epoch: 8/10 Iteration: 325 Train loss: 0.026
+Val acc: 0.901
+Epoch: 8/10 Iteration: 330 Train loss: 0.019
+Epoch: 8/10 Iteration: 335 Train loss: 0.009
+Epoch: 8/10 Iteration: 340 Train loss: 0.016
+Epoch: 9/10 Iteration: 345 Train loss: 0.018
+Epoch: 9/10 Iteration: 350 Train loss: 0.019
+Val acc: 0.895
+Epoch: 9/10 Iteration: 355 Train loss: 0.026
+Epoch: 9/10 Iteration: 360 Train loss: 0.008
+Epoch: 9/10 Iteration: 365 Train loss: 0.028
+Epoch: 9/10 Iteration: 370 Train loss: 0.021
+Epoch: 9/10 Iteration: 375 Train loss: 0.017
+Val acc: 0.901
+Epoch: 9/10 Iteration: 380 Train loss: 0.020
+Test accuracy: 0.909
+Epoch: 0/10 Iteration: 5 Train loss: 0.225
+Epoch: 0/10 Iteration: 10 Train loss: 0.211
+Epoch: 0/10 Iteration: 15 Train loss: 0.229
+Epoch: 0/10 Iteration: 20 Train loss: 0.164
+Epoch: 0/10 Iteration: 25 Train loss: 0.168
+Val acc: 0.788
+Epoch: 1/10 Iteration: 30 Train loss: 0.116
+Epoch: 1/10 Iteration: 35 Train loss: 0.141
+Epoch: 1/10 Iteration: 40 Train loss: 0.111
+Epoch: 1/10 Iteration: 45 Train loss: 0.108
+Epoch: 1/10 Iteration: 50 Train loss: 0.089
+Val acc: 0.865
+Epoch: 2/10 Iteration: 55 Train loss: 0.098
+Epoch: 2/10 Iteration: 60 Train loss: 0.085
+Epoch: 2/10 Iteration: 65 Train loss: 0.083
+Epoch: 2/10 Iteration: 70 Train loss: 0.063
+Epoch: 2/10 Iteration: 75 Train loss: 0.068
+Val acc: 0.889
+Epoch: 3/10 Iteration: 80 Train loss: 0.055
+Epoch: 3/10 Iteration: 85 Train loss: 0.065
+Epoch: 3/10 Iteration: 90 Train loss: 0.052
+Epoch: 3/10 Iteration: 95 Train loss: 0.073
+Epoch: 3/10 Iteration: 100 Train loss: 0.074
+Val acc: 0.893
+Epoch: 4/10 Iteration: 105 Train loss: 0.050
+Epoch: 4/10 Iteration: 110 Train loss: 0.061
+Epoch: 4/10 Iteration: 115 Train loss: 0.044
+Epoch: 4/10 Iteration: 120 Train loss: 0.043
+Epoch: 4/10 Iteration: 125 Train loss: 0.045
+Val acc: 0.902
+Epoch: 4/10 Iteration: 130 Train loss: 0.037
+Epoch: 5/10 Iteration: 135 Train loss: 0.044
+Epoch: 5/10 Iteration: 140 Train loss: 0.033
+Epoch: 5/10 Iteration: 145 Train loss: 0.040
+Epoch: 5/10 Iteration: 150 Train loss: 0.033
+Val acc: 0.908
+Epoch: 5/10 Iteration: 155 Train loss: 0.037
+Epoch: 6/10 Iteration: 160 Train loss: 0.032
+Epoch: 6/10 Iteration: 165 Train loss: 0.034
+Epoch: 6/10 Iteration: 170 Train loss: 0.025
+Epoch: 6/10 Iteration: 175 Train loss: 0.033
+Val acc: 0.913
+Epoch: 6/10 Iteration: 180 Train loss: 0.024
+Epoch: 7/10 Iteration: 185 Train loss: 0.034
+Epoch: 7/10 Iteration: 190 Train loss: 0.030
+Epoch: 7/10 Iteration: 195 Train loss: 0.026
+Epoch: 7/10 Iteration: 200 Train loss: 0.024
+Val acc: 0.913
+Epoch: 7/10 Iteration: 205 Train loss: 0.014
+Epoch: 8/10 Iteration: 210 Train loss: 0.024
+Epoch: 8/10 Iteration: 215 Train loss: 0.024
+Epoch: 8/10 Iteration: 220 Train loss: 0.023
+Epoch: 8/10 Iteration: 225 Train loss: 0.035
+Val acc: 0.893
+Epoch: 8/10 Iteration: 230 Train loss: 0.042
+Epoch: 9/10 Iteration: 235 Train loss: 0.033
+Epoch: 9/10 Iteration: 240 Train loss: 0.034
+Epoch: 9/10 Iteration: 245 Train loss: 0.066
+Epoch: 9/10 Iteration: 250 Train loss: 0.024
+Val acc: 0.873
+Epoch: 9/10 Iteration: 255 Train loss: 0.055
+Epoch: 9/10 Iteration: 260 Train loss: 0.024
+Test accuracy: 0.871
+Epoch: 0/10 Iteration: 5 Train loss: 0.201
+Epoch: 0/10 Iteration: 10 Train loss: 0.195
+Epoch: 0/10 Iteration: 15 Train loss: 0.176
+Epoch: 0/10 Iteration: 20 Train loss: 0.155
+Epoch: 0/10 Iteration: 25 Train loss: 0.146
+Val acc: 0.799
+Epoch: 0/10 Iteration: 30 Train loss: 0.153
+Epoch: 0/10 Iteration: 35 Train loss: 0.141
+Epoch: 0/10 Iteration: 40 Train loss: 0.126
+Epoch: 0/10 Iteration: 45 Train loss: 0.135
+Epoch: 0/10 Iteration: 50 Train loss: 0.110
+Val acc: 0.827
+Epoch: 0/10 Iteration: 55 Train loss: 0.129
+Epoch: 0/10 Iteration: 60 Train loss: 0.113
+Epoch: 0/10 Iteration: 65 Train loss: 0.119
+Epoch: 0/10 Iteration: 70 Train loss: 0.120
+Epoch: 0/10 Iteration: 75 Train loss: 0.121
+Val acc: 0.854
+Epoch: 0/10 Iteration: 80 Train loss: 0.105
+Epoch: 0/10 Iteration: 85 Train loss: 0.100
+Epoch: 0/10 Iteration: 90 Train loss: 0.116
+Epoch: 0/10 Iteration: 95 Train loss: 0.095
+Epoch: 0/10 Iteration: 100 Train loss: 0.102
+Val acc: 0.868
+Epoch: 0/10 Iteration: 105 Train loss: 0.091
+Epoch: 0/10 Iteration: 110 Train loss: 0.108
+Epoch: 0/10 Iteration: 115 Train loss: 0.099
+Epoch: 0/10 Iteration: 120 Train loss: 0.114
+Epoch: 0/10 Iteration: 125 Train loss: 0.099
+Val acc: 0.877
+Epoch: 0/10 Iteration: 130 Train loss: 0.104
+Epoch: 0/10 Iteration: 135 Train loss: 0.104
+Epoch: 1/10 Iteration: 140 Train loss: 0.087
+Epoch: 1/10 Iteration: 145 Train loss: 0.089
+Epoch: 1/10 Iteration: 150 Train loss: 0.097
+Val acc: 0.879
+Epoch: 1/10 Iteration: 155 Train loss: 0.099
+Epoch: 1/10 Iteration: 160 Train loss: 0.078
+Epoch: 1/10 Iteration: 165 Train loss: 0.076
+Epoch: 1/10 Iteration: 170 Train loss: 0.090
+Epoch: 1/10 Iteration: 175 Train loss: 0.092
+Val acc: 0.882
+Epoch: 1/10 Iteration: 180 Train loss: 0.091
+Epoch: 1/10 Iteration: 185 Train loss: 0.078
+Epoch: 1/10 Iteration: 190 Train loss: 0.079
+Epoch: 1/10 Iteration: 195 Train loss: 0.071
+Epoch: 1/10 Iteration: 200 Train loss: 0.084
+Val acc: 0.890
+Epoch: 1/10 Iteration: 205 Train loss: 0.073
+Epoch: 1/10 Iteration: 210 Train loss: 0.071
+Epoch: 1/10 Iteration: 215 Train loss: 0.069
+Epoch: 1/10 Iteration: 220 Train loss: 0.071
+Epoch: 1/10 Iteration: 225 Train loss: 0.060
+Val acc: 0.888
+Epoch: 1/10 Iteration: 230 Train loss: 0.070
+Epoch: 1/10 Iteration: 235 Train loss: 0.083
+Epoch: 1/10 Iteration: 240 Train loss: 0.074
+Epoch: 1/10 Iteration: 245 Train loss: 0.075
+Epoch: 1/10 Iteration: 250 Train loss: 0.066
+Val acc: 0.896
+Epoch: 1/10 Iteration: 255 Train loss: 0.079
+Epoch: 1/10 Iteration: 260 Train loss: 0.075
+Epoch: 1/10 Iteration: 265 Train loss: 0.067
+Epoch: 1/10 Iteration: 270 Train loss: 0.055
+Epoch: 1/10 Iteration: 275 Train loss: 0.061
+Val acc: 0.902
+Epoch: 2/10 Iteration: 280 Train loss: 0.058
+Epoch: 2/10 Iteration: 285 Train loss: 0.073
+Epoch: 2/10 Iteration: 290 Train loss: 0.070
+Epoch: 2/10 Iteration: 295 Train loss: 0.068
+Epoch: 2/10 Iteration: 300 Train loss: 0.058
+Val acc: 0.905
+Epoch: 2/10 Iteration: 305 Train loss: 0.067
+Epoch: 2/10 Iteration: 310 Train loss: 0.069
+Epoch: 2/10 Iteration: 315 Train loss: 0.071
+Epoch: 2/10 Iteration: 320 Train loss: 0.057
+Epoch: 2/10 Iteration: 325 Train loss: 0.090
+Val acc: 0.904
+Epoch: 2/10 Iteration: 330 Train loss: 0.058
+Epoch: 2/10 Iteration: 335 Train loss: 0.071
+Epoch: 2/10 Iteration: 340 Train loss: 0.078
+Epoch: 2/10 Iteration: 345 Train loss: 0.074
+Epoch: 2/10 Iteration: 350 Train loss: 0.071
+Val acc: 0.905
+Epoch: 2/10 Iteration: 355 Train loss: 0.073
+Epoch: 2/10 Iteration: 360 Train loss: 0.074
+Epoch: 2/10 Iteration: 365 Train loss: 0.051
+Epoch: 2/10 Iteration: 370 Train loss: 0.058
+Epoch: 2/10 Iteration: 375 Train loss: 0.063
+Val acc: 0.899
+Epoch: 2/10 Iteration: 380 Train loss: 0.050
+Epoch: 2/10 Iteration: 385 Train loss: 0.071
+Epoch: 2/10 Iteration: 390 Train loss: 0.051
+Epoch: 2/10 Iteration: 395 Train loss: 0.056
+Epoch: 2/10 Iteration: 400 Train loss: 0.045
+Val acc: 0.905
+Epoch: 2/10 Iteration: 405 Train loss: 0.060
+Epoch: 2/10 Iteration: 410 Train loss: 0.062
+Epoch: 3/10 Iteration: 415 Train loss: 0.049
+Epoch: 3/10 Iteration: 420 Train loss: 0.056
+Epoch: 3/10 Iteration: 425 Train loss: 0.050
+Val acc: 0.904
+Epoch: 3/10 Iteration: 430 Train loss: 0.042
+Epoch: 3/10 Iteration: 435 Train loss: 0.051
+Epoch: 3/10 Iteration: 440 Train loss: 0.057
+Epoch: 3/10 Iteration: 445 Train loss: 0.053
+Epoch: 3/10 Iteration: 450 Train loss: 0.040
+Val acc: 0.911
+Epoch: 3/10 Iteration: 455 Train loss: 0.049
+Epoch: 3/10 Iteration: 460 Train loss: 0.044
+Epoch: 3/10 Iteration: 465 Train loss: 0.044
+Epoch: 3/10 Iteration: 470 Train loss: 0.056
+Epoch: 3/10 Iteration: 475 Train loss: 0.045
+Val acc: 0.909
+Epoch: 3/10 Iteration: 480 Train loss: 0.045
+Epoch: 3/10 Iteration: 485 Train loss: 0.046
+Epoch: 3/10 Iteration: 490 Train loss: 0.048
+Epoch: 3/10 Iteration: 495 Train loss: 0.035
+Epoch: 3/10 Iteration: 500 Train loss: 0.048
+Val acc: 0.908
+Epoch: 3/10 Iteration: 505 Train loss: 0.050
+Epoch: 3/10 Iteration: 510 Train loss: 0.043
+Epoch: 3/10 Iteration: 515 Train loss: 0.051
+Epoch: 3/10 Iteration: 520 Train loss: 0.056
+Epoch: 3/10 Iteration: 525 Train loss: 0.051
+Val acc: 0.911
+Epoch: 3/10 Iteration: 530 Train loss: 0.043
+Epoch: 3/10 Iteration: 535 Train loss: 0.027
+Epoch: 3/10 Iteration: 540 Train loss: 0.048
+Epoch: 3/10 Iteration: 545 Train loss: 0.050
+Epoch: 3/10 Iteration: 550 Train loss: 0.043
+Val acc: 0.913
+Epoch: 4/10 Iteration: 555 Train loss: 0.030
+Epoch: 4/10 Iteration: 560 Train loss: 0.042
+Epoch: 4/10 Iteration: 565 Train loss: 0.048
+Epoch: 4/10 Iteration: 570 Train loss: 0.034
+Epoch: 4/10 Iteration: 575 Train loss: 0.037
+Val acc: 0.906
+Epoch: 4/10 Iteration: 580 Train loss: 0.053
+Epoch: 4/10 Iteration: 585 Train loss: 0.053
+Epoch: 4/10 Iteration: 590 Train loss: 0.035
+Epoch: 4/10 Iteration: 595 Train loss: 0.040
+Epoch: 4/10 Iteration: 600 Train loss: 0.036
+Val acc: 0.911
+Epoch: 4/10 Iteration: 605 Train loss: 0.050
+Epoch: 4/10 Iteration: 610 Train loss: 0.035
+Epoch: 4/10 Iteration: 615 Train loss: 0.053
+Epoch: 4/10 Iteration: 620 Train loss: 0.029
+Epoch: 4/10 Iteration: 625 Train loss: 0.036
+Val acc: 0.913
+Epoch: 4/10 Iteration: 630 Train loss: 0.049
+Epoch: 4/10 Iteration: 635 Train loss: 0.039
+Epoch: 4/10 Iteration: 640 Train loss: 0.042
+Epoch: 4/10 Iteration: 645 Train loss: 0.053
+Epoch: 4/10 Iteration: 650 Train loss: 0.038
+Val acc: 0.912
+Epoch: 4/10 Iteration: 655 Train loss: 0.040
+Epoch: 4/10 Iteration: 660 Train loss: 0.035
+Epoch: 4/10 Iteration: 665 Train loss: 0.052
+Epoch: 4/10 Iteration: 670 Train loss: 0.030
+Epoch: 4/10 Iteration: 675 Train loss: 0.038
+Val acc: 0.917
+Epoch: 4/10 Iteration: 680 Train loss: 0.035
+Epoch: 4/10 Iteration: 685 Train loss: 0.044
+Epoch: 4/10 Iteration: 690 Train loss: 0.043
+Epoch: 5/10 Iteration: 695 Train loss: 0.028
+Epoch: 5/10 Iteration: 700 Train loss: 0.037
+Val acc: 0.917
+Epoch: 5/10 Iteration: 705 Train loss: 0.031
+Epoch: 5/10 Iteration: 710 Train loss: 0.029
+Epoch: 5/10 Iteration: 715 Train loss: 0.048
+Epoch: 5/10 Iteration: 720 Train loss: 0.031
+Epoch: 5/10 Iteration: 725 Train loss: 0.037
+Val acc: 0.916
+Epoch: 5/10 Iteration: 730 Train loss: 0.034
+Epoch: 5/10 Iteration: 735 Train loss: 0.036
+Epoch: 5/10 Iteration: 740 Train loss: 0.027
+Epoch: 5/10 Iteration: 745 Train loss: 0.033
+Epoch: 5/10 Iteration: 750 Train loss: 0.032
+Val acc: 0.916
+Epoch: 5/10 Iteration: 755 Train loss: 0.028
+Epoch: 5/10 Iteration: 760 Train loss: 0.030
+Epoch: 5/10 Iteration: 765 Train loss: 0.035
+Epoch: 5/10 Iteration: 770 Train loss: 0.037
+Epoch: 5/10 Iteration: 775 Train loss: 0.032
+Val acc: 0.917
+Epoch: 5/10 Iteration: 780 Train loss: 0.034
+Epoch: 5/10 Iteration: 785 Train loss: 0.029
+Epoch: 5/10 Iteration: 790 Train loss: 0.035
+Epoch: 5/10 Iteration: 795 Train loss: 0.030
+Epoch: 5/10 Iteration: 800 Train loss: 0.029
+Val acc: 0.918
+Epoch: 5/10 Iteration: 805 Train loss: 0.029
+Epoch: 5/10 Iteration: 810 Train loss: 0.022
+Epoch: 5/10 Iteration: 815 Train loss: 0.029
+Epoch: 5/10 Iteration: 820 Train loss: 0.031
+Epoch: 5/10 Iteration: 825 Train loss: 0.022
+Val acc: 0.920
+Epoch: 6/10 Iteration: 830 Train loss: 0.030
+Epoch: 6/10 Iteration: 835 Train loss: 0.024
+Epoch: 6/10 Iteration: 840 Train loss: 0.022
+Epoch: 6/10 Iteration: 845 Train loss: 0.031
+Epoch: 6/10 Iteration: 850 Train loss: 0.031
+Val acc: 0.918
+Epoch: 6/10 Iteration: 855 Train loss: 0.019
+Epoch: 6/10 Iteration: 860 Train loss: 0.033
+Epoch: 6/10 Iteration: 865 Train loss: 0.024
+Epoch: 6/10 Iteration: 870 Train loss: 0.031
+Epoch: 6/10 Iteration: 875 Train loss: 0.020
+Val acc: 0.919
+Epoch: 6/10 Iteration: 880 Train loss: 0.022
+Epoch: 6/10 Iteration: 885 Train loss: 0.023
+Epoch: 6/10 Iteration: 890 Train loss: 0.025
+Epoch: 6/10 Iteration: 895 Train loss: 0.021
+Epoch: 6/10 Iteration: 900 Train loss: 0.025
+Val acc: 0.914
+Epoch: 6/10 Iteration: 905 Train loss: 0.030
+Epoch: 6/10 Iteration: 910 Train loss: 0.029
+Epoch: 6/10 Iteration: 915 Train loss: 0.027
+Epoch: 6/10 Iteration: 920 Train loss: 0.023
+Epoch: 6/10 Iteration: 925 Train loss: 0.038
+Val acc: 0.915
+Epoch: 6/10 Iteration: 930 Train loss: 0.028
+Epoch: 6/10 Iteration: 935 Train loss: 0.030
+Epoch: 6/10 Iteration: 940 Train loss: 0.024
+Epoch: 6/10 Iteration: 945 Train loss: 0.036
+Epoch: 6/10 Iteration: 950 Train loss: 0.022
+Val acc: 0.917
+Epoch: 6/10 Iteration: 955 Train loss: 0.025
+Epoch: 6/10 Iteration: 960 Train loss: 0.018
+Epoch: 6/10 Iteration: 965 Train loss: 0.023
+Epoch: 7/10 Iteration: 970 Train loss: 0.022
+Epoch: 7/10 Iteration: 975 Train loss: 0.024
+Val acc: 0.917
+Epoch: 7/10 Iteration: 980 Train loss: 0.019
+Epoch: 7/10 Iteration: 985 Train loss: 0.018
+Epoch: 7/10 Iteration: 990 Train loss: 0.023
+Epoch: 7/10 Iteration: 995 Train loss: 0.031
+Epoch: 7/10 Iteration: 1000 Train loss: 0.027
+Val acc: 0.909
+Epoch: 7/10 Iteration: 1005 Train loss: 0.024
+Epoch: 7/10 Iteration: 1010 Train loss: 0.024
+Epoch: 7/10 Iteration: 1015 Train loss: 0.029
+Epoch: 7/10 Iteration: 1020 Train loss: 0.021
+Epoch: 7/10 Iteration: 1025 Train loss: 0.022
+Val acc: 0.924
+Epoch: 7/10 Iteration: 1030 Train loss: 0.030
+Epoch: 7/10 Iteration: 1035 Train loss: 0.014
+Epoch: 7/10 Iteration: 1040 Train loss: 0.023
+Epoch: 7/10 Iteration: 1045 Train loss: 0.034
+Epoch: 7/10 Iteration: 1050 Train loss: 0.037
+Val acc: 0.915
+Epoch: 7/10 Iteration: 1055 Train loss: 0.018
+Epoch: 7/10 Iteration: 1060 Train loss: 0.017
+Epoch: 7/10 Iteration: 1065 Train loss: 0.018
+Epoch: 7/10 Iteration: 1070 Train loss: 0.022
+Epoch: 7/10 Iteration: 1075 Train loss: 0.025
+Val acc: 0.923
+Epoch: 7/10 Iteration: 1080 Train loss: 0.032
+Epoch: 7/10 Iteration: 1085 Train loss: 0.024
+Epoch: 7/10 Iteration: 1090 Train loss: 0.023
+Epoch: 7/10 Iteration: 1095 Train loss: 0.014
+Epoch: 7/10 Iteration: 1100 Train loss: 0.022
+Val acc: 0.920
+Epoch: 8/10 Iteration: 1105 Train loss: 0.022
+Epoch: 8/10 Iteration: 1110 Train loss: 0.032
+Epoch: 8/10 Iteration: 1115 Train loss: 0.011
+Epoch: 8/10 Iteration: 1120 Train loss: 0.010
+Epoch: 8/10 Iteration: 1125 Train loss: 0.023
+Val acc: 0.921
+Epoch: 8/10 Iteration: 1130 Train loss: 0.019
+Epoch: 8/10 Iteration: 1135 Train loss: 0.019
+Epoch: 8/10 Iteration: 1140 Train loss: 0.014
+Epoch: 8/10 Iteration: 1145 Train loss: 0.022
+Epoch: 8/10 Iteration: 1150 Train loss: 0.019
+Val acc: 0.894
+Epoch: 8/10 Iteration: 1155 Train loss: 0.046
+Epoch: 8/10 Iteration: 1160 Train loss: 0.033
+Epoch: 8/10 Iteration: 1165 Train loss: 0.032
+Epoch: 8/10 Iteration: 1170 Train loss: 0.030
+Epoch: 8/10 Iteration: 1175 Train loss: 0.025
+Val acc: 0.919
+Epoch: 8/10 Iteration: 1180 Train loss: 0.016
+Epoch: 8/10 Iteration: 1185 Train loss: 0.025
+Epoch: 8/10 Iteration: 1190 Train loss: 0.024
+Epoch: 8/10 Iteration: 1195 Train loss: 0.026
+Epoch: 8/10 Iteration: 1200 Train loss: 0.028
+Val acc: 0.919
+Epoch: 8/10 Iteration: 1205 Train loss: 0.024
+Epoch: 8/10 Iteration: 1210 Train loss: 0.034
+Epoch: 8/10 Iteration: 1215 Train loss: 0.022
+Epoch: 8/10 Iteration: 1220 Train loss: 0.024
+Epoch: 8/10 Iteration: 1225 Train loss: 0.006
+Val acc: 0.923
+Epoch: 8/10 Iteration: 1230 Train loss: 0.017
+Epoch: 8/10 Iteration: 1235 Train loss: 0.016
+Epoch: 8/10 Iteration: 1240 Train loss: 0.014
+Epoch: 9/10 Iteration: 1245 Train loss: 0.019
+Epoch: 9/10 Iteration: 1250 Train loss: 0.018
+Val acc: 0.923
+Epoch: 9/10 Iteration: 1255 Train loss: 0.019
+Epoch: 9/10 Iteration: 1260 Train loss: 0.013
+Epoch: 9/10 Iteration: 1265 Train loss: 0.013
+Epoch: 9/10 Iteration: 1270 Train loss: 0.014
+Epoch: 9/10 Iteration: 1275 Train loss: 0.014
+Val acc: 0.924
+Epoch: 9/10 Iteration: 1280 Train loss: 0.019
+Epoch: 9/10 Iteration: 1285 Train loss: 0.016
+Epoch: 9/10 Iteration: 1290 Train loss: 0.013
+Epoch: 9/10 Iteration: 1295 Train loss: 0.026
+Epoch: 9/10 Iteration: 1300 Train loss: 0.020
+Val acc: 0.916
+Epoch: 9/10 Iteration: 1305 Train loss: 0.026
+Epoch: 9/10 Iteration: 1310 Train loss: 0.015
+Epoch: 9/10 Iteration: 1315 Train loss: 0.016
+Epoch: 9/10 Iteration: 1320 Train loss: 0.019
+Epoch: 9/10 Iteration: 1325 Train loss: 0.014
+Val acc: 0.920
+Epoch: 9/10 Iteration: 1330 Train loss: 0.015
+Epoch: 9/10 Iteration: 1335 Train loss: 0.028
+Epoch: 9/10 Iteration: 1340 Train loss: 0.021
+Epoch: 9/10 Iteration: 1345 Train loss: 0.014
+Epoch: 9/10 Iteration: 1350 Train loss: 0.013
+Val acc: 0.916
+Epoch: 9/10 Iteration: 1355 Train loss: 0.024
+Epoch: 9/10 Iteration: 1360 Train loss: 0.014
+Epoch: 9/10 Iteration: 1365 Train loss: 0.020
+Epoch: 9/10 Iteration: 1370 Train loss: 0.016
+Epoch: 9/10 Iteration: 1375 Train loss: 0.020
+Val acc: 0.922
+Epoch: 9/10 Iteration: 1380 Train loss: 0.025
+Test accuracy: 0.921
+Epoch: 0/10 Iteration: 5 Train loss: 0.229
+Epoch: 0/10 Iteration: 10 Train loss: 0.210
+Epoch: 0/10 Iteration: 15 Train loss: 0.186
+Epoch: 0/10 Iteration: 20 Train loss: 0.175
+Epoch: 0/10 Iteration: 25 Train loss: 0.172
+Val acc: 0.757
+Epoch: 0/10 Iteration: 30 Train loss: 0.157
+Epoch: 0/10 Iteration: 35 Train loss: 0.137
+Epoch: 0/10 Iteration: 40 Train loss: 0.153
+Epoch: 0/10 Iteration: 45 Train loss: 0.135
+Epoch: 0/10 Iteration: 50 Train loss: 0.114
+Val acc: 0.818
+Epoch: 0/10 Iteration: 55 Train loss: 0.111
+Epoch: 0/10 Iteration: 60 Train loss: 0.132
+Epoch: 0/10 Iteration: 65 Train loss: 0.120
+Epoch: 0/10 Iteration: 70 Train loss: 0.135
+Epoch: 0/10 Iteration: 75 Train loss: 0.115
+Val acc: 0.848
+Epoch: 0/10 Iteration: 80 Train loss: 0.105
+Epoch: 1/10 Iteration: 85 Train loss: 0.097
+Epoch: 1/10 Iteration: 90 Train loss: 0.116
+Epoch: 1/10 Iteration: 95 Train loss: 0.107
+Epoch: 1/10 Iteration: 100 Train loss: 0.124
+Val acc: 0.841
+Epoch: 1/10 Iteration: 105 Train loss: 0.106
+Epoch: 1/10 Iteration: 110 Train loss: 0.112
+Epoch: 1/10 Iteration: 115 Train loss: 0.081
+Epoch: 1/10 Iteration: 120 Train loss: 0.079
+Epoch: 1/10 Iteration: 125 Train loss: 0.089
+Val acc: 0.867
+Epoch: 1/10 Iteration: 130 Train loss: 0.077
+Epoch: 1/10 Iteration: 135 Train loss: 0.094
+Epoch: 1/10 Iteration: 140 Train loss: 0.072
+Epoch: 1/10 Iteration: 145 Train loss: 0.098
+Epoch: 1/10 Iteration: 150 Train loss: 0.091
+Val acc: 0.877
+Epoch: 1/10 Iteration: 155 Train loss: 0.082
+Epoch: 1/10 Iteration: 160 Train loss: 0.083
+Epoch: 1/10 Iteration: 165 Train loss: 0.083
+Epoch: 2/10 Iteration: 170 Train loss: 0.069
+Epoch: 2/10 Iteration: 175 Train loss: 0.073
+Val acc: 0.882
+Epoch: 2/10 Iteration: 180 Train loss: 0.067
+Epoch: 2/10 Iteration: 185 Train loss: 0.071
+Epoch: 2/10 Iteration: 190 Train loss: 0.087
+Epoch: 2/10 Iteration: 195 Train loss: 0.063
+Epoch: 2/10 Iteration: 200 Train loss: 0.077
+Val acc: 0.888
+Epoch: 2/10 Iteration: 205 Train loss: 0.066
+Epoch: 2/10 Iteration: 210 Train loss: 0.062
+Epoch: 2/10 Iteration: 215 Train loss: 0.061
+Epoch: 2/10 Iteration: 220 Train loss: 0.056
+Epoch: 2/10 Iteration: 225 Train loss: 0.066
+Val acc: 0.885
+Epoch: 2/10 Iteration: 230 Train loss: 0.052
+Epoch: 2/10 Iteration: 235 Train loss: 0.069
+Epoch: 2/10 Iteration: 240 Train loss: 0.060
+Epoch: 2/10 Iteration: 245 Train loss: 0.040
+Epoch: 2/10 Iteration: 250 Train loss: 0.076
+Val acc: 0.887
+Epoch: 3/10 Iteration: 255 Train loss: 0.059
+Epoch: 3/10 Iteration: 260 Train loss: 0.054
+Epoch: 3/10 Iteration: 265 Train loss: 0.071
+Epoch: 3/10 Iteration: 270 Train loss: 0.052
+Epoch: 3/10 Iteration: 275 Train loss: 0.055
+Val acc: 0.891
+Epoch: 3/10 Iteration: 280 Train loss: 0.073
+Epoch: 3/10 Iteration: 285 Train loss: 0.062
+Epoch: 3/10 Iteration: 290 Train loss: 0.069
+Epoch: 3/10 Iteration: 295 Train loss: 0.042
+Epoch: 3/10 Iteration: 300 Train loss: 0.050
+Val acc: 0.890
+Epoch: 3/10 Iteration: 305 Train loss: 0.062
+Epoch: 3/10 Iteration: 310 Train loss: 0.056
+Epoch: 3/10 Iteration: 315 Train loss: 0.053
+Epoch: 3/10 Iteration: 320 Train loss: 0.049
+Epoch: 3/10 Iteration: 325 Train loss: 0.053
+Val acc: 0.893
+Epoch: 3/10 Iteration: 330 Train loss: 0.055
+Epoch: 3/10 Iteration: 335 Train loss: 0.051
+Epoch: 4/10 Iteration: 340 Train loss: 0.050
+Epoch: 4/10 Iteration: 345 Train loss: 0.039
+Epoch: 4/10 Iteration: 350 Train loss: 0.045
+Val acc: 0.894
+Epoch: 4/10 Iteration: 355 Train loss: 0.059
+Epoch: 4/10 Iteration: 360 Train loss: 0.041
+Epoch: 4/10 Iteration: 365 Train loss: 0.047
+Epoch: 4/10 Iteration: 370 Train loss: 0.061
+Epoch: 4/10 Iteration: 375 Train loss: 0.039
+Val acc: 0.888
+Epoch: 4/10 Iteration: 380 Train loss: 0.040
+Epoch: 4/10 Iteration: 385 Train loss: 0.038
+Epoch: 4/10 Iteration: 390 Train loss: 0.047
+Epoch: 4/10 Iteration: 395 Train loss: 0.038
+Epoch: 4/10 Iteration: 400 Train loss: 0.042
+Val acc: 0.900
+Epoch: 4/10 Iteration: 405 Train loss: 0.037
+Epoch: 4/10 Iteration: 410 Train loss: 0.033
+Epoch: 4/10 Iteration: 415 Train loss: 0.043
+Epoch: 4/10 Iteration: 420 Train loss: 0.035
+Epoch: 5/10 Iteration: 425 Train loss: 0.040
+Val acc: 0.900
+Epoch: 5/10 Iteration: 430 Train loss: 0.038
+Epoch: 5/10 Iteration: 435 Train loss: 0.035
+Epoch: 5/10 Iteration: 440 Train loss: 0.033
+Epoch: 5/10 Iteration: 445 Train loss: 0.037
+Epoch: 5/10 Iteration: 450 Train loss: 0.043
+Val acc: 0.898
+Epoch: 5/10 Iteration: 455 Train loss: 0.029
+Epoch: 5/10 Iteration: 460 Train loss: 0.046
+Epoch: 5/10 Iteration: 465 Train loss: 0.050
+Epoch: 5/10 Iteration: 470 Train loss: 0.029
+Epoch: 5/10 Iteration: 475 Train loss: 0.032
+Val acc: 0.897
+Epoch: 5/10 Iteration: 480 Train loss: 0.037
+Epoch: 5/10 Iteration: 485 Train loss: 0.047
+Epoch: 5/10 Iteration: 490 Train loss: 0.045
+Epoch: 5/10 Iteration: 495 Train loss: 0.032
+Epoch: 5/10 Iteration: 500 Train loss: 0.026
+Val acc: 0.900
+Epoch: 6/10 Iteration: 505 Train loss: 0.026
+Epoch: 6/10 Iteration: 510 Train loss: 0.037
+Epoch: 6/10 Iteration: 515 Train loss: 0.018
+Epoch: 6/10 Iteration: 520 Train loss: 0.047
+Epoch: 6/10 Iteration: 525 Train loss: 0.035
+Val acc: 0.897
+Epoch: 6/10 Iteration: 530 Train loss: 0.040
+Epoch: 6/10 Iteration: 535 Train loss: 0.036
+Epoch: 6/10 Iteration: 540 Train loss: 0.013
+Epoch: 6/10 Iteration: 545 Train loss: 0.033
+Epoch: 6/10 Iteration: 550 Train loss: 0.028
+Val acc: 0.901
+Epoch: 6/10 Iteration: 555 Train loss: 0.040
+Epoch: 6/10 Iteration: 560 Train loss: 0.027
+Epoch: 6/10 Iteration: 565 Train loss: 0.040
+Epoch: 6/10 Iteration: 570 Train loss: 0.040
+Epoch: 6/10 Iteration: 575 Train loss: 0.033
+Val acc: 0.901
+Epoch: 6/10 Iteration: 580 Train loss: 0.025
+Epoch: 6/10 Iteration: 585 Train loss: 0.038
+Epoch: 7/10 Iteration: 590 Train loss: 0.035
+Epoch: 7/10 Iteration: 595 Train loss: 0.034
+Epoch: 7/10 Iteration: 600 Train loss: 0.022
+Val acc: 0.904
+Epoch: 7/10 Iteration: 605 Train loss: 0.023
+Epoch: 7/10 Iteration: 610 Train loss: 0.035
+Epoch: 7/10 Iteration: 615 Train loss: 0.016
+Epoch: 7/10 Iteration: 620 Train loss: 0.026
+Epoch: 7/10 Iteration: 625 Train loss: 0.020
+Val acc: 0.903
+Epoch: 7/10 Iteration: 630 Train loss: 0.029
+Epoch: 7/10 Iteration: 635 Train loss: 0.024
+Epoch: 7/10 Iteration: 640 Train loss: 0.022
+Epoch: 7/10 Iteration: 645 Train loss: 0.029
+Epoch: 7/10 Iteration: 650 Train loss: 0.018
+Val acc: 0.902
+Epoch: 7/10 Iteration: 655 Train loss: 0.024
+Epoch: 7/10 Iteration: 660 Train loss: 0.027
+Epoch: 7/10 Iteration: 665 Train loss: 0.014
+Epoch: 7/10 Iteration: 670 Train loss: 0.030
+Epoch: 8/10 Iteration: 675 Train loss: 0.017
+Val acc: 0.900
+Epoch: 8/10 Iteration: 680 Train loss: 0.039
+Epoch: 8/10 Iteration: 685 Train loss: 0.030
+Epoch: 8/10 Iteration: 690 Train loss: 0.025
+Epoch: 8/10 Iteration: 695 Train loss: 0.032
+Epoch: 8/10 Iteration: 700 Train loss: 0.031
+Val acc: 0.897
+Epoch: 8/10 Iteration: 705 Train loss: 0.030
+Epoch: 8/10 Iteration: 710 Train loss: 0.026
+Epoch: 8/10 Iteration: 715 Train loss: 0.015
+Epoch: 8/10 Iteration: 720 Train loss: 0.029
+Epoch: 8/10 Iteration: 725 Train loss: 0.023
+Val acc: 0.902
+Epoch: 8/10 Iteration: 730 Train loss: 0.028
+Epoch: 8/10 Iteration: 735 Train loss: 0.025
+Epoch: 8/10 Iteration: 740 Train loss: 0.018
+Epoch: 8/10 Iteration: 745 Train loss: 0.025
+Epoch: 8/10 Iteration: 750 Train loss: 0.025
+Val acc: 0.898
+Epoch: 8/10 Iteration: 755 Train loss: 0.023
+Epoch: 9/10 Iteration: 760 Train loss: 0.026
+Epoch: 9/10 Iteration: 765 Train loss: 0.016
+Epoch: 9/10 Iteration: 770 Train loss: 0.030
+Epoch: 9/10 Iteration: 775 Train loss: 0.032
+Val acc: 0.901
+Epoch: 9/10 Iteration: 780 Train loss: 0.023
+Epoch: 9/10 Iteration: 785 Train loss: 0.017
+Epoch: 9/10 Iteration: 790 Train loss: 0.023
+Epoch: 9/10 Iteration: 795 Train loss: 0.014
+Epoch: 9/10 Iteration: 800 Train loss: 0.021
+Val acc: 0.905
+Epoch: 9/10 Iteration: 805 Train loss: 0.019
+Epoch: 9/10 Iteration: 810 Train loss: 0.024
+Epoch: 9/10 Iteration: 815 Train loss: 0.020
+Epoch: 9/10 Iteration: 820 Train loss: 0.014
+Epoch: 9/10 Iteration: 825 Train loss: 0.018
+Val acc: 0.906
+Epoch: 9/10 Iteration: 830 Train loss: 0.019
+Epoch: 9/10 Iteration: 835 Train loss: 0.017
+Epoch: 9/10 Iteration: 840 Train loss: 0.036
+Test accuracy: 0.902
+Batman accuracy:
+0.85286456
+0.87402344
+Dota 2 accuracy:
+0.91646636
+0.8808594
+GTA V accuracy:
+0.89746094
+0.87939453
+No Man's Sky accuracy:
+0.9091797
+0.87109375
+Payday 2 accuracy:
+0.92130053
+0.90175784
